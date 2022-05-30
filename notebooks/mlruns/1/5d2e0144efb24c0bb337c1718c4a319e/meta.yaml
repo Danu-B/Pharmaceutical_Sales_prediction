@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Danayt/Pharmaceutical_Sales_prediction/notebooks/mlruns/1/5d2e0144efb24c0bb337c1718c4a319e/artifacts
+end_time: 1653897102400
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 5d2e0144efb24c0bb337c1718c4a319e
+run_uuid: 5d2e0144efb24c0bb337c1718c4a319e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1653897075218
+status: 3
+tags: []
+user_id: Danayt
