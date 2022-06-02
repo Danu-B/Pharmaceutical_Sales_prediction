@@ -78,6 +78,8 @@ target_customers = extract_customers(train_df)
 
 train_features.to_csv(str(Config.FEATURES_PATH / "train_features.csv"), index=None)
 test_features.to_csv(str(Config.FEATURES_PATH / "test_features.csv"), index=None)
+test_features.to_csv(str(Config.FEATURES_PATH / "merged_features.csv"), index=None)
 
 target_sales.to_csv(str(Config.FEATURES_PATH / "target_sales.csv"), index=None)
 target_customers.to_csv(str(Config.FEATURES_PATH / "target_customers.csv"), index=None)
+target_customers.to_csv(str(Config.FEATURES_PATH / "merged.csv"), index=None)
