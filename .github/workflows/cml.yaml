@@ -11,7 +11,7 @@ jobs:
           REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           pip install -r requirements.txt
-          cd models/
+          cd scripts/
           python train.py
           
           cat metrics.txt >> report.md
