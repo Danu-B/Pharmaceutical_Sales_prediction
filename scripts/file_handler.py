@@ -1,6 +1,7 @@
 import pandas as pd
 import pickle
 from time import gmtime, strftime
+from logger import Logger
 from config import Config
 
 class FileHandler():
