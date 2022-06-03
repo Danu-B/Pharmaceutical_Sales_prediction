@@ -18,13 +18,18 @@ def write():
     st.write('---')
     st.markdown('## Partial Autocorrelation Plot')
     st.image("./images/03.png")
-    st.write(' is a summary of the relationship between an observation in a time series with observations at prior time steps with the relationships of intervening observations removed .')
+    st.write(' Partial Autocorrelation Plot: is a summary of the relationship between an observation in a time series with observations at prior time steps with the relationships of intervening observations removed .')
 
 
     st.write('---')
     st.markdown('## Estimate The LSTM')
     st.write('Using Hober loss- chosen because it is quite robust or nonlinear regression models and non normal errors.')
     st.image("./images/04.png")
+    
+    
+    st.write('---')
+    st.markdown('## Forecast the lstm of the validation set and assess accuracy')
+    st.image("./images/05.png")
     st.write('Validation vs Forecast series')
     
    
