@@ -7,7 +7,7 @@ ast.core.services.other.set_logging_format()
 
 # create the choices
 PAGES = {
-    "Result": page.web,
+    "Home": page.web,
     
 }
 
@@ -25,7 +25,10 @@ def main():
 
     st.sidebar.title("About")
     st.sidebar.info(
-        
+        """
+        This App Rosemann pharmaceutical company to 
+        view predictions.
+"""
     )
 
 # run it
