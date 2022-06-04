@@ -7,7 +7,7 @@ ast.core.services.other.set_logging_format()
 
 # create the choices
 PAGES = {
-    "Home": page.web,
+    "Result": page.web,
     
 }
 
